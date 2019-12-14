@@ -63,6 +63,7 @@ ol li {
   list-style: none;
 }
 
+
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -878,7 +879,22 @@ a.back-to-top:focus {
   display: none;
 }
 
+@media screen and (max-width: 460px) {
+  .testing {
+    font-size: 24px;
+  }
+
+  .testing2 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
+
+  .testing2 {
+    display: none;
+  }
+
   .navbar-header {
     width: 100%;
   }
