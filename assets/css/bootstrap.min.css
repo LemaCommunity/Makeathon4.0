@@ -4348,7 +4348,6 @@ tbody.collapse.show {
 }
 
 .navbar-brand {
-    display: inline-block;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
